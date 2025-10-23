@@ -1,0 +1,22 @@
+body { background: #fff3df; font-family: cursive}
+
+h1 { color: #de582b; font-family: cursive; font-size: 66px; text-align: center; text-decoration: underline;}
+
+.titulo-ingredientes { color: #de582b; font-size: 26px; text-align: center; text-decoration: underline;}
+.titulo-preparacion { color: #de582b; font-size: 26px; text-align: center; text-decoration: underline;}
+.Zgeografica { color: #fb2d2d; font-size: 24px; text-align: center; text-decoration: underline;}
+.VidYoutube { color: #de582b; font-size: 26px; text-align: center; text-decoration: underline;}
+.MapProvinicaGM { color: #de582b; font-size: 26px; text-align: center; text-decoration: underline;}
+.TextColor { color: #5c3d2e; text-align: center; font-size: 19.85px}
+
+.MapMexico { color: #de582b; font-size: 26px; text-align: center; text-decoration: underline;}
+.TacoVideo { color: #de582b; font-size: 26px; text-align: center; text-decoration: underline;}
+
+
+ /*ideas o recursos para recordar antes de olvidarme JAJAJAJAJ
+ */
+ /* una linea que puede hacer que un texto se pueda reescribir facilmente con un solo click en la pagina:
+ contenteditable="true" */
+
+ /* esta funcion que al apretar algo haga aparecer algun elemento con esa id¿¿ID(u otra) que tenga el elemento hidden:
+ "onclick="document.getElementById('linkAmburgesas').hidden = false;" */
