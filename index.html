@@ -8,11 +8,13 @@
   <body>
 
   <h1>Recetas Tipicas</h1>
-    <center> <h2>Países:</h2> </center>
+    <center> <h2>Selecciona el país:</h2> </center>
      <center>
-      <a href="empanadas.html">Argentina</a>
-      <br><br> <a href="tacos.html">Mexico</a>
-      <br><br> <a href="" onclick="alert('Proximamente...')">Chile</a>
+      <p onclick="document.getElementById('empanadasSalteñasLink').hidden = false;">👉🌐 Argentina</p>
+        <a id="empanadasSalteñasLink" href="empanadas.html" hidden>Empanadas Salteñas 🥟</a>
+      <br><br> <p onclick="document.getElementById('tacosMexicoLink').hidden = false;">👉🌐 Mexico<p>
+        <a id="tacosMexicoLink" href="tacos.html" hidden>Tacos 🌮</a>
+      <br><br> <p onclick="alert('Proximamente...')">👉⛔​ Chile...<p>
      </center>
 
   </body>
